@@ -1,0 +1,22 @@
+body{
+    background: url(../img/bg_img.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative !important;
+}
+
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.card{
+    box-shadow: 2px 2px 10px #ffffff;
+    background: rgb(75, 75, 75) !important;
+}
