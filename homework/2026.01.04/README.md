@@ -1,0 +1,4 @@
+Készíts bootstrap használatával egy olyan weboldalt, amelyben téli sportokat mutatsz be! Az egyes sportágakat kártyákban jelenítsd meg! Használd ehhez a bootstrap-grid-et! Törekedj minél több stílust a bootstrap által kínált osztálynevekkel elkészíteni. Emellett használhatsz saját stílusokat is.
+A menüben sorold fel a sportokat lenyíló menükkel, és a menüpontokra kattintással ugorjon a megfelelő kártyára az ablak.
+Pl.: Sí sportok -> alpesi sí, északi sí, hódeszka; korcsolya sportok -> műkorcsolya, gyorskorcsolya, jégkorong; stb.
+Téli sportokból rengeteg van. Beírod a böngészőbe és az AI máris sorolja őket... (Ötlet: "Téli sportok listája")
