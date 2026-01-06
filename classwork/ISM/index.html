@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismétlés</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        article {
+            /*Az absulute és s fixed kiemeli az elemet a html - struktúrából*/
+            /*position: absolute;*/
+            /*fixed 'csiki-csuki' 'pik-pak' 'bim-bum'*/
+            top: 0;
+            /*z-index: -1;*/
+            backdrop-filter: blur(5px) saturate(193%);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .card-body {
+            padding: .5rem;
+        }
+
+        .card-body p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Az absulute pozícionálású gyeker azon szülőjéhez igazodik, amelyik relative pozícionálású! HA nincs ilyen akkor a böngésző ablakához!-->
+    <header>
+        <ul class="nav bg-white">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </header>
+    <main style="position: relative;">
+        <div style="margin-top: 20rem;" class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <article class="mt-3 border border-top-0 border-black border-5">
+                        <figure>
+                            <img src="./img/ps1.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/ps2.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/ps3.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/ps4.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/ps5.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/konti2.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/konti1.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+                    <article class="mt-3">
+                        <figure>
+                            <img src="./img/konti3.jpg" alt="">
+                            <figcaption>A képhez tartozó felirat</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Kártya Címe</h3>
+                            <i class="bi bi-playstation"></i>
+                            <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. <span
+                                    style="font-style: italic; font-weight: bold;">Consectetur odio</span> mollitia,
+                                labore ipsam provident aut, eaque repellendus, iusto eum inventore cupiditate rem
+                                asperiores nobis veniam ducimus consequuntur dolorum molestias? Voluptatibus.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <form class="bg-white" style="padding: 1rem; display:flex; flex-direction:column; gap: 1rem;" action="">
+            <input type="text" name="age" id="" placeholder="Az ön neve...">
+            <input type="number" name="birth date" id="">
+            <label for="">Születési dátum</label><input type="date" name="" id="">
+            <input type="email" name="email" id="" placeholder="email cím">
+            <input type="password" name="password" id="" placeholder="jelszó">
+            <input type="color" name="color" id="">
+            <input type="range" name="" id="range" step="10" max="100" value="0">
+            <label for="">Fiú</label> <input type="radio" name="Gender" id="">
+            <label for="">Lány</label> <input type="radio" name="Gender" id="">
+            <label for=""> óvoda</label> <input type="checkbox" name="school" id="">
+            <label for=""> ált</label> <input type="checkbox" name="kindergarden" id="">
+            <label for=""> főisi</label> <input type="checkbox" name="főiskola" id="">
+            <input type="submit" value="küldés">
+        </form>
+    </main>
+</body>
+
+</html>
