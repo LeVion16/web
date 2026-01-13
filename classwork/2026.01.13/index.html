@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Regisztráció</h1>
+    </header>
+    <main>
+        <form>
+            <h3>Kérem adja meg az adatait!</h3>
+            <input type="text" name="name" id="name" placeholder="Teljes Neve..">
+            <input type="text" name="user-name" id="user-name" placeholder="Felhasználónév...">
+            <label for="">Születési dátum:</label>
+            <input type="date" name="birthdate" id="birthdate">
+            <input type="password" name="password" id="password" placeholder="Jelszó...">
+            <div style="display: flex; justify-content: space-around;">
+                <label for="color">Kedvenc színe!</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <input type="number" name="post-code" id="post-code" placeholder="Irányító szám..." maxlength="4" min="1000" max="9999">
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            <label for="brand">Kedvenc autómárká:</label>
+            <select name="brand" id="brand">
+                <option value="BMW">BMW</option>
+                <option value="lada">lada</option>
+                <option value="holdjáró">holdjáró</option>
+                <option value="szixuxifényjáró">szixuxifényjáró</option>
+                <option value="Válassza" selected>Válasszon!</option>
+            </select>
+            <h4>Neme:</h4>
+            <div style="display: flex; flex-direction: column; align-items: start; gap: 1rem;">
+                <label for=""><input type="radio" name="gender" id="" value="male">Férfi</label>
+                <label for=""><input type="radio" name="gender" id="" value="female">Nő</label>
+                <label for=""><input type="radio" name="gender" id="" value="female">Helicopter</label>
+                <label for=""><input type="radio" name="gender" id="" value="female">még nem döntöttem el</label>
+            </div>
+            <h4>Iskolai végzettség</h4>
+            <label for=""><input type="checkbox" name="végzettség" id="" value="Óvoda">Óvoda</label>
+            <label for=""><input type="checkbox" name="végzettség" id="" value="Ískola">Ískola</label>
+            <label for=""><input type="checkbox" name="végzettség" id="" value="Fő iskola">Fő iskola</label>
+            <label for=""><input type="checkbox" name="végzettség" id="" value="Egyetem">Egyetem</label>
+            <button type="submit">Küldés</button>
+        </form>
+    </main>
+</body>
+</html>
