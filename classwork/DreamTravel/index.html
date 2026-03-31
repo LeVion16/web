@@ -11,16 +11,16 @@
     <title>Dream Travel</title>
 </head>
 <body>
-    <header style="padding: 4rem 0; text-align:center; font-weight: bold;">
+    <header id="top" style="padding: 4rem 0; text-align:center; font-weight: bold;">
         <h1>Dream Travel</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#">Úticélok</a></li>
-            <li><a href="#">Galéria</a></li>
+            <li><a href="#galery">Galéria</a></li>
             <li><a href="#">Kapcsolat</a></li>
             <li><a href="#">Turizmus</a></li>
-            <li><a href="#">Rólunk</a></li>
+            <li><a href="./about_us.html" target="_blank">Rólunk</a></li>
         </ul>
     </nav>
     <main>
@@ -56,7 +56,7 @@
         <div style="width: 90%; margin: 5rem auto 0 auto;">
             <h2>Galéria</h2>
         </div>
-        <div class="gallery grid">
+        <div class="gallery grid" id="galery">
             <figure>
                 <img class="picture" src="./img/visonta1.jpg" alt="">
             </figure>
@@ -71,6 +71,30 @@
             </figure>
         </div>
         <div style="width: 90%; margin: 5rem auto 0 auto;">
+            <h2>Jelentkezés utaazásra</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Cél</th>
+                <th>Indulási idő</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td>Ózd</td>
+                <td>2026.05.05</td>
+                <td>1000Ft</td>
+            </tr>
+            <tr>
+                <td>Eutanázia</td>
+                <td>2026.03.03</td>
+                <td rowspan="2">500Ft</td>
+            </tr>
+            <tr>
+                <td>Bakonybél</td>
+                <td>2026.03.04</td>
+            </tr>
+        </table>
+        <div>
             <h2>Jelentkezés utaazásra</h2>
         </div>
         <div class="container">
@@ -90,7 +114,7 @@
         </div>
     </main>
     <footer style="margin: 5rem;">
-        ヾ(￣▽￣) Bye~Bye~
+        <a href="#top">Vissza (￣y▽￣)╭ Ohohoho.....</a>
     </footer>
 </body>
 </html>

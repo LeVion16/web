@@ -126,6 +126,23 @@ article:last-child:hover{
     border-bottom: 1px solid rgb(1000,100,100);
 }
 
+.gallery.grid img:hover{
+    transform: translateY(-2px);
+}
+
+.gallery.grid img{
+    transform: 1s ease;
+}
+
+.gallery.grid img:active{
+    transform: rotateX(60deg);
+    transform-style: preserve-3d;
+}
+
+figure{
+    perspective: 1000px; /*A forgaando elem szülőjére kell a perspective - property*/
+}
+
 .gallery figure{
     width: 200px;
     margin: 0;
@@ -146,6 +163,44 @@ form{
 }
 
 form input{
+    text-align: center;
+}
+
+footer a{
+    display: flex;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 15rem;
+    text-align: center;
+}
+
+footer a:hover{
+    box-shadow: 0 0 10px 2px #ff0a0a;
+}
+
+footer:active{
+    box-shadow: 0 0 10px 2px #ff0a0a inset;
+}
+
+table{
+    margin: 0 auto;
+}
+
+th{
+    background-color: #ff00fb;
+}
+
+table, td, th{
+    border: 1px solid #ff0000;
+}
+
+td, th{
+    padding: .3rem 1rem;
     text-align: center;
 }
 
