@@ -1,0 +1,47 @@
+:root{
+    --dark-slate-grey: #335c67ff;
+    --vanilla-custard: #fff3b0ff;
+    --honey-bronze: #e09f3eff;
+    --brown-red: #9e2a2bff;
+    --night-bordeaux: #540b0eff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--brown-red);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    height: 100vh;
+}
+
+main, section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input, button, select{
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    padding: .2rem .3rem;
+}
+
+button, select{
+    cursor: pointer;
+}

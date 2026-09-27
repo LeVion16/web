@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js" defer></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Football | Calculator</title>
+</head>
+<body>
+
+    <header>
+        <h1>Futballmeccs-kalkulátor</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <input type="number" min="0" id="homeGoals" placeholder="Hazai csapat goljai... ">
+            <div> - </div>
+            <input type="number" min="0" id="awayGoals" placeholder="Vendeg csapat goljai... ">
+        </section>
+
+        <section>
+            <select name="" id="resultType">
+                <option value="points">Szerzett pontok</option>
+                <option value="status">Mérkőzés eredménye</option>
+                <option value="difference">Gólkülönbség</option>
+            </select>
+            <input type="text" id="result" placeholder="Eredmény" readonly>
+        </section>
+
+        <button type="button">Szamolas</button>
+    </main>
+</body>
+</html>
