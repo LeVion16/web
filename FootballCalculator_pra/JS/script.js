@@ -64,7 +64,7 @@ function showResult(result) {
 }
 
 function buttonHandler() {
-    const btn = document.querySelector("button")
+    const btn = document.querySelector("button");
     btn.addEventListener("click", function() {
         const output = calculate();
         showResult(output);

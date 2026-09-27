@@ -36,7 +36,8 @@ function calculate(num1, op, num2) {
         case "+": return num1 + num2;
         case "-": return num1 - num2;
         case "*": return num1 * num2;
-        case "/": return num2 === 0 ? null : (num1 / num2).toFixed(3); // Ternary operátor. 
+        case "/": return num2 === 0 ? null : (num1 / num2).toFixed(3); // Ternary operátor.
+        case "**": return num1 ** num2
     }
 };
 
